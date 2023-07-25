@@ -1,0 +1,16 @@
+.title__profile {
+   width: 18rem;
+}
+
+@media (max-width: 768px) {
+   .title__profile {
+      width: 12rem;
+   }
+}
+
+@media (max-width: 425px) {
+   .title__profile {
+      width: 8rem;
+      margin-bottom: 1rem;
+   }
+}

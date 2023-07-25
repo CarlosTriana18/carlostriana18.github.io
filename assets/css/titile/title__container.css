@@ -1,0 +1,42 @@
+.title__bio {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.title__subsection {
+
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+
+.title__network {
+    display: flex;
+    gap: 2rem;
+}
+
+.title__network__item:hover {
+    color: var(--color-primario);
+}
+
+@media (max-width: 768px) {
+    .title__bio {
+        font-size: 1.8rem;
+    }
+
+    .title__subsection {
+        font-size: 1rem;
+    }
+
+    .title__network__item {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width:425px) {
+    .title__bio {
+        font-size: 1.2rem;
+    }
+
+}

@@ -1,0 +1,43 @@
+.menu__list,
+.menu-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu__list__item,
+.menu__list__item__contato {
+    color: var(--color-cuarto);
+}
+
+.menu__list__item a {
+    font-weight: normal;
+}
+
+.menu__list__item:hover,
+.menu__list__item__contato:hover {
+    color: var(--color-primario);
+}
+
+.menu__list__item__contato {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu__list__item {
+        display: none;
+    }
+
+    .menu__list__item__contato {
+        display: block;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 425px) {
+    .menu__list__item__contato {
+        font-weight: 500;
+        font-size: .6rem;
+    }
+}

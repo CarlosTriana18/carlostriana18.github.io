@@ -1,0 +1,15 @@
+.formcontato--esquerda {
+    width: 45%;
+    margin: auto;
+    position: relative;
+}
+.formcontato__img{
+    width:80%;
+ margin: auto;
+ display: block;
+}
+@media (max-width: 768px){
+    .formcontato--esquerda{
+        display: none;
+    }
+}
